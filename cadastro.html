@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>cadastro</title>
+    <style>
+        h1 {position: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center;}
+        label{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center;}
+        body { padding: 20px;}
+    </style>
+    
+</head>
+<body>
+    <H1> Se inscreva-se para virar um dos nossos funcionarios</H1>
+  <form action="cadastro" mehod="post">
+  <fieldset>
+    <legend>
+        Dados pessoais
+    </legend>
+    <br>
+    <label>Nome</label>
+<input type="text" required>
+</br>
+<br><label>Email</label>
+<input type="text" required></br>
+<br><label>Telefone</label>
+<input type="text" required></br>
+<br>
+<label>UF</label> 
+<select>
+    <option value="1">MG</option>
+    <option value="2">SP</option>
+    <option value="3">RJ</option>
+    <option value="4">ES</option>
+    <option value="5">AC</option>
+    <option value="6">BA</option>
+    <option value="7">DF</option>
+    <option value="8">GO</option>
+    <option value="9">MA</option>
+    <option value="10">MS</option>
+    <option value="11">AL</option>
+    <option value="12">CE</option>
+</select>
+</br>
+<br>
+<label>SEXO</label>
+<input type="radio" name="sex" value="M"> Masculino
+<input type="radio" name="sex" value="F"> Feminino
+</br>
+<br><input type="submit" value="cadrastar"></br>
+  </fieldset>
+   </form>
+
+<a href="index.html">Voltar ao menu inicial</a> 
+</body>
+</html>
